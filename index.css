@@ -22,7 +22,6 @@ text color - #016f32
 width      - 150px
 background - goldenrod
  */
- 
 button {
     color: #016f32;
     width: 150px;
@@ -32,4 +31,6 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
