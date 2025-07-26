@@ -10,9 +10,8 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById("cards-el")
 
-// 1. Create a function, getRandomCard(), that always returns the number 5
 function getRandomCard() {
-    return 5
+    return Math.floor( Math.random()*13 ) + 1 // 1-13
 }
 
 
